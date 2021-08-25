@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:srcCompat="@mipmap/img" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruam kemerahan dengan bagian tepi yang menyerupai cincin" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tekstur bersisik" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ruam terasa gatal" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kulit bisa melepuh" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit mengeluarkan cairan" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit di sekitar selangkangan memerah" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit di sekitar selangkangan mengelupas" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit di sekitar selangkangan terasa gatal" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit di sekitar selangkangan seperti terbakar" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gatal disertai sensasi panas dan menyengat di antara jari kaki  " />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gatal disertai sensasi panas dan menyengat di telapak kaki." />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kulit di telapak kaki akan terasa kering, mengelupas, atau melepuh." />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bercak yang terasa gatal di kepala" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kulit kepala memerah" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="botak dan bersisik di area yang terkena kurap." />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nyeri di kulit kepala" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembengkakan kelenjar getah bening di kepala" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="demam ringan" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit di bokong dan di area selangkangan hingga ke paha memerah" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit di bokong dan di area selangkangan hingga ke paha mengalami iritasi" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit di bokong dan di area selangkangan hingga ke paha hangat bila disentuh" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="infeksi terjadi di lipatan kulit" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="benjolan berisi nanah di lipatan kulit" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ruam yang disertai gatal dan rasa terbakar di lipatan kulit" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bengkak dan nyeri, disertai nanah di kulit di bawah kuku." />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Kepercayaan" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:text="DETEKSI SEKARANG"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OUTPUT"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
